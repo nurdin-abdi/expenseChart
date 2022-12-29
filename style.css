@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top{
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec775f;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    color: hsl(33, 100%, 98%);
+    font-weight: 500;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.bottom{
+    /* height: 50vh; */
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+.days{
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+.title-bottom{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bottom-section{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
